@@ -1,13 +1,13 @@
-# @ph/logger
+# A simple logger for Node.JS
 
 ## 🤔 How to use?
 
-This logger is a wrapper based on [Pino](https://github.com/pinojs/pino) Use this logger is so simple you can use the following and enjoy it!
+This logger is a wrapper based on [Pino](https://github.com/pinojs/pino) to use this logger is so simple you can use the following and enjoy it!
 
 ```javascript
-const { buildLogger } = require('@ph/logger');
+const { buildLogger } = require("@pipehnz/logger");
 
-const logger = buildLogger('my-app');
+const logger = buildLogger("my-app");
 
-logger.info('My first log :)')
+logger.info("My first log :)");
 ```
